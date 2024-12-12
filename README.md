@@ -208,17 +208,16 @@ get more Insights about job posting around world
 7. **Companies/Roles That Do Not Require a Degree**
    - **SQL Query:**
      ```sql
-    SELECT 
+SELECT 
     CASE 
-    WHEN job_no_degree_mention = TRUE THEN 'No Degree Mentioned'
-    ELSE 'Degree Mentioned'
+        WHEN job_no_degree_mention = TRUE THEN 'No Degree Mentioned'
+        ELSE 'Degree Mentioned'
     END AS degree_requirement,
     COUNT(*) AS job_count
-    FROM 
+FROM 
     public.job_postings_fact
-    GROUP BY 
+GROUP BY 
     degree_requirement;
-    ```
    - **Visualization:** Pie Chart
    - **Query Result:**
    -
