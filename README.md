@@ -111,6 +111,20 @@ get more Insights about job posting around world
      LIMIT 10;
      ```
    - **Visualization:** Word cloud highlighting in-demand skills.
+   - **Query Result:**
+   - 
+| Skill      | Skill Count |
+|------------|-------------|
+| sql        | 334,513     |
+| python     | 332,300     |
+| aws        | 124,049     |
+| r          | 117,236     |
+| azure      | 114,388     |
+| tableau    | 108,698     |
+| spark      | 105,005     |
+| excel      | 96,984      |
+| power bi   | 81,521      |
+| sas        | 72,390      |
 ---
 4. **Jobs Allowing Work-from-Home Flexibility**
    - **SQL Query:**
