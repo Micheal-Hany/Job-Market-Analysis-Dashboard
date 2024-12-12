@@ -131,9 +131,9 @@ get more Insights about job posting around world
      ```sql
      SELECT job_title_short,
        job_schedule_type
-FROM job_postings_fact
-WHERE job_work_from_home = TRUE
-ORDER BY job_location;
+     FROM job_postings_fact
+     WHERE job_work_from_home = TRUE
+     ORDER BY job_location;
      ```
    - **Visualization:** Table or pie chart showing the distribution of work-from-home jobs.
    - **Query Result:**
