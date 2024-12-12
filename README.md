@@ -208,17 +208,24 @@ get more Insights about job posting around world
 7. **Companies/Roles That Do Not Require a Degree**
    - **SQL Query:**
      ```sql
-     SELECT company_dim.name AS company_name,
-            job_title
-     FROM job_postings_fact
-     JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
-     WHERE job_postings_fact.job_no_degree_mention = TRUE
-     ORDER BY company_name
-     LIMIT 10;
+    SELECT 
+    CASE 
+        WHEN job_no_degree_mention = TRUE THEN 'No Degree Mentioned'
+        ELSE 'Degree Mentioned'
+    END AS degree_requirement,
+    COUNT(*) AS job_count
+   FROM 
+    public.job_postings_fact
+   GROUP BY 
+    degree_requirement;
      ```
-   - **Visualization:** Table listing companies and roles that do not require a degree.
+   - **Visualization:** Pie Chart
    - **Query Result:**
-   - 
+   -
+| Degree Requirement   | Job Count |
+|----------------------|-----------|
+| Degree Mentioned      | 546,329   |
+| No Degree Mentioned   | 241,357   |
 ---
 8. **Top Ten Websites Posting Jobs**
    - **SQL Query:**
