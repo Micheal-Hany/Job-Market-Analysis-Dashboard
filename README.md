@@ -202,7 +202,7 @@ Follow these steps to set up and use the project:
 - PostgreSQL
 
 3. **Clone the Repository**  
-   Clone this repository using the following command:
+
    ```bash
    git clone https://github.com/Micheal-Hany/Job-Market-Analysis-Dashboard.git
 
@@ -210,7 +210,7 @@ Follow these steps to set up and use the project:
 
 ## Author
 
-Michael Hany | [michealhany991@gmail.com](mailto:michealhany991@gmail.com) | Micheal-Hany
+Michael Hany | [michealhany991@gmail.com](mailto:michealhany991@gmail.com) | [Micheal-Hany](https://www.linkedin.com/in/michael-hany-572034262/)
 
 ---
 
