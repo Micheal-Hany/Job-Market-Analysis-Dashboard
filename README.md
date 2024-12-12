@@ -1,4 +1,4 @@
-[Job Postings by Industry.csv](https://github.com/user-attachments/files/18117368/Job.Postings.by.Industry.csv)# Job Market Analysis Dashboard
+# Job Market Analysis Dashboard
 
 This project focuses on analyzing job market data using Python and SQL for data cleaning and processing, and Power BI for visualization. The dashboard serves two primary user groups:
 
@@ -212,22 +212,4 @@ Michael Hany | [michealhany991@gmail.com](mailto:michealhany991@gmail.com) | [Mi
 ---
 
 Feel free to contribute to this project by submitting issues or pull requests
-
-# Job Posts by Industry
-
-Below is the distribution of job posts by industry:
-
-| Industry        | Job Count |
-|-----------------|-----------|
-| programming     | 1,398,696 |
-| analyst_tools   | 632,696   |
-| cloud           | 552,271   |
-| libraries       | 521,217   |
-| other           | 260,389   |
-| databases       | 152,168   |
-| os              | 60,279    |
-| webframeworks   | 44,241    |
-| async           | 39,697    |
-| sync            | 7,950     |
-
 
