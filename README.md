@@ -130,13 +130,26 @@ get more Insights about job posting around world
    - **SQL Query:**
      ```sql
      SELECT job_title_short,
-            job_schedule_type,
-            job_location
-     FROM job_postings_fact
-     WHERE job_work_from_home = TRUE
-     ORDER BY job_location;
+       job_schedule_type
+FROM job_postings_fact
+WHERE job_work_from_home = TRUE
+ORDER BY job_location;
      ```
    - **Visualization:** Table or pie chart showing the distribution of work-from-home jobs.
+   - **Query Result:**
+   -
+| Job Title      | Job Schedule Type      |
+|----------------|------------------------|
+| Data Engineer  | Contractor             |
+| Data Engineer  | Full-time              |
+| Data Engineer  | Full-time              |
+| Data Engineer  | Full-time              |
+| Data Analyst   | Full-time              |
+| Data Engineer  | Full-time              |
+| Data Analyst   | Full-time              |
+| Data Analyst   | Contractor             |
+| Data Engineer  | Contractor and Temp work |
+| Data Analyst   | Full-time              |
 ---
 5. **Most Common Job Schedules**
    - **SQL Query:**
