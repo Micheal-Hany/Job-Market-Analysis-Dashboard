@@ -1,4 +1,4 @@
-[Job Titles with the Highest Average Salary.csv](https://github.com/user-attachments/files/18117460/Job.Titles.with.the.Highest.Average.Salary.csv)# Job Market Analysis Dashboard
+# Job Market Analysis Dashboard
 
 This project focuses on analyzing job market data using Python and SQL for data cleaning and processing, and Power BI for visualization. The dashboard serves two primary user groups:
 
