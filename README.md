@@ -54,6 +54,7 @@ get more Insights about job posting around world
      ```
    - **Visualization:** Horizontal bar chart showing the top 10 hiring companies.
    - **Query Result:**
+   - 
 | Industry        | Job Count |
 |-----------------|-----------|
 | programming     | 1,398,696 |
