@@ -5,6 +5,11 @@ This project focuses on analyzing job market data using SQL for data cleaning an
 1. **Job Seekers:** Individuals looking to explore career opportunities or make informed career decisions.
 2. **Startup Owners:** Business owners aiming to identify high-potential markets and emerging trends.
 
+## lets understand Data
+-  database schema
+![database_schema](https://github.com/user-attachments/assets/458d6a80-7d32-4cc5-9055-8236fc1bb266)
+
+
 ## **[Date Before Cleaing](https://drive.google.com/drive/folders/1JszPD5y8bf2LhIAPwccrypQZdUhUFWwe?usp=sharing)**
 
 ---
@@ -22,6 +27,12 @@ This project focuses on analyzing job market data using SQL for data cleaning an
 
 ## **[Date After Cleaing](https://drive.google.com/drive/folders/1-v8bUaTvMCTNsIuVYk_Rv4K-4Sia2LU7?usp=sharing)**
 
+## Graphs compare data Before & After Cleaing
+- duplication in rows graph
+- ![duplcation in rows graph](https://github.com/user-attachments/assets/93e82acc-bb47-4cc4-8c89-4ff046d21e2e)
+
+- missing values graph
+- ![missing values graph](https://github.com/user-attachments/assets/9098529f-252c-437c-9366-57f818fde4ee)
 
 ## Project Features
 get more Insights about job posting around world
