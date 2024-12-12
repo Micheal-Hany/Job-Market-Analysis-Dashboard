@@ -208,7 +208,7 @@ get more Insights about job posting around world
 7. **Companies/Roles That Do Not Require a Degree**
    - **SQL Query:**
      ```sql
-SELECT 
+   SELECT 
     CASE 
         WHEN job_no_degree_mention = TRUE THEN 'No Degree Mentioned'
         ELSE 'Degree Mentioned'
