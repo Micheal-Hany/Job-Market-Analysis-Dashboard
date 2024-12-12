@@ -219,20 +219,6 @@ FROM
     public.job_postings_fact
 GROUP BY 
     degree_requirement;
-
-7. **Companies/Roles That Do Not Require a Degree**
-   - **SQL Query:**
-     ```sql
-   SELECT 
-    CASE 
-        WHEN job_no_degree_mention = TRUE THEN 'No Degree Mentioned'
-        ELSE 'Degree Mentioned'
-    END AS degree_requirement,
-    COUNT(*) AS job_count
-   FROM 
-    public.job_postings_fact
-   GROUP BY 
-    degree_requirement;
    ```
    - **Visualization:** Pie Chart
    - **Query Result:**
