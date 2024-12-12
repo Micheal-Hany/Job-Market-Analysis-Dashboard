@@ -82,7 +82,7 @@ get more Insights about job posting around world
      ```
    - **Visualization:** Grouped bar chart comparing yearly and hourly salaries.
    - **Query Result:**
-| Job Title                                                   | Average Yearly Salary | Average Hourly Salary |
+   - | Job Title                                                   | Average Yearly Salary | Average Hourly Salary |
 |-------------------------------------------------------------|-----------------------|-----------------------|
 | Senior Data Engineer (Live Streaming)                       | $375,000              | $9,663.95             |
 | Senior Data Engineer (ETL Pipelines)                        | $350,000              | $2,674.59             |
