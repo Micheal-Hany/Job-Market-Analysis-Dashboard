@@ -190,6 +190,20 @@ get more Insights about job posting around world
      LIMIT 10;
      ```
    - **Visualization:** Horizontal bar chart highlighting roles with health insurance benefits.
+   - **Query Result:**
+   - 
+| Job Title              | Health Insurance Count |
+|------------------------|------------------------|
+| Data Scientist          | 5,763                  |
+| Data Analyst           | 4,570                  |
+| Data Engineer          | 3,521                  |
+| Senior Data Engineer   | 2,345                  |
+| Senior Data Scientist  | 2,250                  |
+| Senior Data Analyst    | 1,341                  |
+| Lead Data Engineer     | 632                    |
+| Lead Data Scientist    | 567                    |
+| Principal Data Scientist| 504                   |
+| Data Analyst II        | 387                    |
 ---
 7. **Companies/Roles That Do Not Require a Degree**
    - **SQL Query:**
@@ -203,6 +217,8 @@ get more Insights about job posting around world
      LIMIT 10;
      ```
    - **Visualization:** Table listing companies and roles that do not require a degree.
+   - **Query Result:**
+   - 
 ---
 8. **Top Ten Websites Posting Jobs**
    - **SQL Query:**
@@ -214,6 +230,21 @@ ORDER BY job_count DESC
 LIMIT 10;
 ```
 - **Visualization:** A bar chart in Power BI would effectively display the top ten job posting websites with the number of jobs posted on each..
+- **Query Result:**
+-
+| Job Source                  | Job Count |
+|-----------------------------|-----------|
+| LinkedIn                | 186,990   |
+| BeBee                   | 103,655   |
+| Trabajo.org             | 61,935    |
+| Indeed                  | 42,835    |
+| Recruit.net             | 23,714    |
+| ZipRecruiter            | 15,612    |
+| Jobs Trabajo.org        | 10,690    |
+| Snagajob                | 9,424     |
+| Trabajo.org - Vacantes De Empleo, Trabajo | 8,920     |
+| BeBee India             | 8,705     |
+
 ---
 9. **Most Common Job Publish Time**
    - **SQL Query:**
@@ -229,6 +260,21 @@ ORDER BY
     frequency DESC;
 ```
 - **Visualization:** A column chart in Power BI would work well to show the frequency of job postings per month. You can use months as the axis and the count of job postings as the values.
+- **Query Result:**
+ | Publish Month | Frequency |
+|----------------|-----------|
+| January       | 92,266    |
+| August        | 75,067    |
+| October       | 66,601    |
+| February      | 64,560    |
+| November      | 64,404    |
+| March         | 64,158    |
+| July          | 63,855    |
+| April         | 62,915    |
+| September     | 62,433    |
+| June          | 61,500    |
+| December      | 57,692    |
+| May           | 52,235    | 
 ---
 
 10. **Job Postings by Industry**
@@ -241,7 +287,22 @@ JOIN skills_dim s ON sj.skill_id = s.skill_id
 GROUP BY s.type
 ORDER BY job_count DESC;
 ```
-- **Visualization:** 
+- **Visualization:** Pie Chart
+- **Query Result:**
+- 
+| Skill Type      | Job Count |
+|-----------------|-----------|
+| Programming     | 1,398,696 |
+| Analyst Tools   | 632,696   |
+| Cloud           | 552,271   |
+| Libraries       | 521,217   |
+| Other           | 260,389   |
+| Databases       | 152,168   |
+| OS              | 60,279    |
+| Web Frameworks  | 44,241    |
+| Async           | 39,697    |
+| Sync            | 7,950     |
+
 ---
 
 
