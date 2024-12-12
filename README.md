@@ -205,7 +205,7 @@ get more Insights about job posting around world
 | Principal Data Scientist| 504                   |
 | Data Analyst II        | 387                    |
 ---
-## 77. Companies/Roles That Do Not Require a Degree
+7. **Companies/Roles That Do Not Require a Degree**
 
 ### **SQL Query:**
 ```sql
