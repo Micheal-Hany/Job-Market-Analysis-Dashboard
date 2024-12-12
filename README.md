@@ -214,10 +214,11 @@ get more Insights about job posting around world
         ELSE 'Degree Mentioned'
     END AS degree_requirement,
     COUNT(*) AS job_count
-FROM 
+   FROM 
     public.job_postings_fact
-GROUP BY 
+   GROUP BY 
     degree_requirement;
+   ```
    - **Visualization:** Pie Chart
    - **Query Result:**
    -
