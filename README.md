@@ -211,5 +211,4 @@ Michael Hany | [michealhany991@gmail.com](mailto:michealhany991@gmail.com) | [Mi
 
 ---
 
-Feel free to contribute to this project by submitting issues or pull requests!
-"""
+Feel free to contribute to this project by submitting issues or pull requests
