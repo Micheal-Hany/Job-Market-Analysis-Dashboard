@@ -82,18 +82,18 @@ get more Insights about job posting around world
      ```
    - **Visualization:** Grouped bar chart comparing yearly and hourly salaries.
    - **Query Result:**
-```csv
-job_title,avg_yearly_salary,avg_hourly_salary
-"Senior Data Engineer (Live Streaming)",375000,9663.952090269828
-"Senior Data Engineer (ETL Pipelines)",350000,2674.590007015933
-"Senior Data Engineer (Kafka)",325000,6452.374697767144
-"Vice President of Data Platforms and Data Science",275000,8610.336377029484
-"Senior Director, Data Science",273555,7635.560735594122
-"Lead SoC Architect, NPU AI/ML",270000,9564.19655202312
-"Principal Data Engineer, Knowledge Graphs and Data Semantics",269500,6938.326097117167
-"Principal Data Scientist - BCG X & BCG Fed (Pittsburgh, PA)",253000,5167.631235740379
-"Principal, Data Scientist, Knowledge Management",250000,8185.982599632235
-"Vice President of Data Platforms & Data Science",250000,4690.371807192828
+| Job Title                                                   | Average Yearly Salary | Average Hourly Salary |
+|-------------------------------------------------------------|-----------------------|-----------------------|
+| Senior Data Engineer (Live Streaming)                       | $375,000              | $9,663.95             |
+| Senior Data Engineer (ETL Pipelines)                        | $350,000              | $2,674.59             |
+| Senior Data Engineer (Kafka)                                | $325,000              | $6,452.37             |
+| Vice President of Data Platforms and Data Science           | $275,000              | $8,610.34             |
+| Senior Director, Data Science                               | $273,555              | $7,635.56             |
+| Lead SoC Architect, NPU AI/ML                               | $270,000              | $9,564.20             |
+| Principal Data Engineer, Knowledge Graphs and Data Semantics| $269,500              | $6,938.33             |
+| Principal Data Scientist - BCG X & BCG Fed (Pittsburgh, PA) | $253,000              | $5,167.63             |
+| Principal, Data Scientist, Knowledge Management             | $250,000              | $8,185.98             |
+| Vice President of Data Platforms & Data Science             | $250,000              | $4,690.37             |
 
 ---
 3. **Most Frequently Required Skills in a Specific Industry or Role**
