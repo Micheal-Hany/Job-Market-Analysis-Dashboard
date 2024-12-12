@@ -1,4 +1,4 @@
-# Job Market Analysis Dashboard
+[Job Titles with the Highest Average Salary.csv](https://github.com/user-attachments/files/18117460/Job.Titles.with.the.Highest.Average.Salary.csv)# Job Market Analysis Dashboard
 
 This project focuses on analyzing job market data using Python and SQL for data cleaning and processing, and Power BI for visualization. The dashboard serves two primary user groups:
 
@@ -81,6 +81,21 @@ get more Insights about job posting around world
      LIMIT 10;
      ```
    - **Visualization:** Grouped bar chart comparing yearly and hourly salaries.
+   - **Query Result:**
+   - ```cvs
+      [Uploadin"job_title","avg_yearly_salary","avg_hourly_salary"
+"Senior Data Engineer (Live Streaming)",375000,9663.952090269828
+"Senior Data Engineer (ETL Pipelines)",350000,2674.590007015933
+"Senior Data Engineer (Kafka)",325000,6452.374697767144
+"Vice President of Data Platforms and Data Science",275000,8610.336377029484
+"Senior Director, Data Science",273555,7635.560735594122
+"Lead SoC Architect, NPU AI/ML",270000,9564.19655202312
+"Principal Data Engineer, Knowledge Graphs and Data Semantics",269500,6938.326097117167
+"Principal Data Scientist - BCG X & BCG Fed (Pittsburgh, PA)",253000,5167.631235740379
+"Principal, Data Scientist, Knowledge Management",250000,8185.982599632235
+"Vice President of Data Platforms & Data Science",250000,4690.371807192828
+g Job Titles with the Highest Average Salary.csv…]()
+
 ---
 3. **Most Frequently Required Skills in a Specific Industry or Role**
    - **SQL Query:**
