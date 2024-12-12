@@ -194,9 +194,12 @@ ORDER BY job_count DESC;
 
 ## Getting Started
 
-1. Clone this repository.
-2. Import the SQL scripts to your database and execute the queries.
-3. Use the provided queries to visualize data in Power BI.
+Follow these steps to set up and use the project:
+
+1. **Clone the Repository**  
+   Clone this repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/Micheal-Hany/Job-Market-Analysis-Dashboard.git
 
 ---
 
