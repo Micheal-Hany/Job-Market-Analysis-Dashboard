@@ -26,19 +26,19 @@ This project focuses on analyzing job market data using SQL for data cleaning an
 - Replace Empty Values wth value
 
 ## **[Date After Cleaing](https://drive.google.com/drive/folders/1-v8bUaTvMCTNsIuVYk_Rv4K-4Sia2LU7?usp=sharing)**
-
+---
 ## Graphs compare data Before & After Cleaing
-- duplication in rows graph
+- duplication in rows graph :
 - ![duplcation in rows graph](https://github.com/user-attachments/assets/93e82acc-bb47-4cc4-8c89-4ff046d21e2e)
-
-- missing values graph
+---
+- missing values graph :
 - ![missing values graph](https://github.com/user-attachments/assets/9098529f-252c-437c-9366-57f818fde4ee)
 
 ## Project Features
 get more Insights about job posting around world
 
 ### Insights for Job Seekers
-
+---
 1. **Top Companies Hiring in a Specific Location or Industry**
    - **SQL Query:**
      ```sql
@@ -53,7 +53,7 @@ get more Insights about job posting around world
      LIMIT 10;
      ```
    - **Visualization:** Horizontal bar chart showing the top 10 hiring companies.
-
+---
 2. **Job Titles with the Highest Average Salary**
    - **SQL Query:**
      ```sql
@@ -67,7 +67,7 @@ get more Insights about job posting around world
      LIMIT 10;
      ```
    - **Visualization:** Grouped bar chart comparing yearly and hourly salaries.
-
+---
 3. **Most Frequently Required Skills in a Specific Industry or Role**
    - **SQL Query:**
      ```sql
@@ -82,7 +82,7 @@ get more Insights about job posting around world
      LIMIT 10;
      ```
    - **Visualization:** Word cloud highlighting in-demand skills.
-
+---
 4. **Jobs Allowing Work-from-Home Flexibility**
    - **SQL Query:**
      ```sql
@@ -94,7 +94,7 @@ get more Insights about job posting around world
      ORDER BY job_location;
      ```
    - **Visualization:** Table or pie chart showing the distribution of work-from-home jobs.
-
+---
 5. **Most Common Job Schedules**
    - **SQL Query:**
      ```sql
@@ -107,7 +107,7 @@ get more Insights about job posting around world
      LIMIT 10;
      ```
    - **Visualization:** Pie chart showing the proportions of different job schedules.
-
+---
 6. **Industries/Roles Offering Health Insurance Benefits**
    - **SQL Query:**
      ```sql
@@ -120,7 +120,7 @@ get more Insights about job posting around world
      LIMIT 10;
      ```
    - **Visualization:** Horizontal bar chart highlighting roles with health insurance benefits.
-
+---
 7. **Companies/Roles That Do Not Require a Degree**
    - **SQL Query:**
      ```sql
@@ -133,7 +133,7 @@ get more Insights about job posting around world
      LIMIT 10;
      ```
    - **Visualization:** Table listing companies and roles that do not require a degree.
-
+---
 8. **Top Ten Websites Posting Jobs**
    - **SQL Query:**
 ```sql
@@ -159,7 +159,7 @@ ORDER BY
     frequency DESC;
 ```
 - **Visualization:** A column chart in Power BI would work well to show the frequency of job postings per month. You can use months as the axis and the count of job postings as the values.
-
+---
 
 10. **Job Postings by Industry**
    - **SQL Query:**
@@ -201,7 +201,7 @@ Follow these steps to set up and use the project:
 - Git
 - PostgreSQL
 
-3. **Clone the Repository**  
+3. **Clone the Repository :**  
 
    ```bash
    git clone https://github.com/Micheal-Hany/Job-Market-Analysis-Dashboard.git
