@@ -187,8 +187,8 @@ ORDER BY job_count DESC;
  - **PostgreSQL:**  enterprise-class open-source relational database that supports both SQL (relational) and JSON (non-relational) querying
  - **Vscode:** for runing queries 
 ---
-## **[go to dashboard](https://app.powerbi.com/links/DHigIDIGsK?ctid=dee1ed73-19ca-4ce0-8066-8261fbabbeaa&pbi_source=linkShare)**
-
+## **[Dashboard](https://app.powerbi.com/links/DHigIDIGsK?ctid=dee1ed73-19ca-4ce0-8066-8261fbabbeaa&pbi_source=linkShare)**
+---
 ## Getting Started
 
 Follow these steps to set up and use the project:
