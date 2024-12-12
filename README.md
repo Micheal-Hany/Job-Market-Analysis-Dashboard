@@ -195,9 +195,13 @@ ORDER BY job_count DESC;
 ## Getting Started
 
 Follow these steps to set up and use the project:
-
-1. **Clone the Repository**  
-   Clone this repository to your local machine using the following command:
+1. **Required Technologies**
+   ```bash
+   Python 3.11.9
+   Git
+   PostgreSQL
+3. **Clone the Repository**  
+   Clone this repository using the following command:
    ```bash
    git clone https://github.com/Micheal-Hany/Job-Market-Analysis-Dashboard.git
 
