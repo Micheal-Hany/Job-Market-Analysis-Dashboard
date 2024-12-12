@@ -1,6 +1,6 @@
 # Job Market Analysis Dashboard
 
-This project focuses on analyzing job market data using SQL for data cleaning and processing, and Power BI for visualization. The dashboard serves two primary user groups:
+This project focuses on analyzing job market data using Python and SQL for data cleaning and processing, and Power BI for visualization. The dashboard serves two primary user groups:
 
 1. **Job Seekers:** Individuals looking to explore career opportunities or make informed career decisions.
 2. **Startup Owners:** Business owners aiming to identify high-potential markets and emerging trends.
