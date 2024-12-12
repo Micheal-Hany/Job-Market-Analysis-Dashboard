@@ -163,6 +163,20 @@ get more Insights about job posting around world
      LIMIT 10;
      ```
    - **Visualization:** Pie chart showing the proportions of different job schedules.
+   - **Query Result:**
+   - 
+| Job Schedule Type        | Schedule Count |
+|--------------------------|----------------|
+| Full-time                | 6,755          |
+| Contractor               | 356            |
+| Full-time and Part-time  | 77             |
+| Internship               | 59             |
+| Part-time                | 38             |
+| Full-time and Contractor | 38             |
+| Full-time and Temp work  | 36             |
+| Full-time and Internship | 30             |
+|  Part-time                  | 24             |
+| Contractor and Temp work | 14             |
 ---
 6. **Industries/Roles Offering Health Insurance Benefits**
    - **SQL Query:**
