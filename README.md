@@ -261,6 +261,7 @@ ORDER BY
 ```
 - **Visualization:** A column chart in Power BI would work well to show the frequency of job postings per month. You can use months as the axis and the count of job postings as the values.
 - **Query Result:**
+- 
  | Publish Month | Frequency |
 |----------------|-----------|
 | January       | 92,266    |
