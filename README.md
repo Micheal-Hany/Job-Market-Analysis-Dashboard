@@ -72,8 +72,8 @@ get more Insights about job posting around world
    - **SQL Query:**
      ```sql
      SELECT job_title,
-            AVG(COALESCE(salary_year_avg, random() * 13400)) AS avg_yearly_salary,
-            AVG(COALESCE(salary_hour_avg, random() * 17800)) AS avg_hourly_salary
+            AVG(COALESCE(salary_year_avg)) AS avg_yearly_salary,
+            AVG(COALESCE(salary_hour_avg)) AS avg_hourly_salary
      FROM job_postings_fact
      WHERE job_postings_fact.job_location IS NOT NULL
      GROUP BY job_title
