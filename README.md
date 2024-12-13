@@ -328,6 +328,9 @@ ORDER BY job_count DESC;
  - **Vscode:** for runing queries 
 ---
 ## **[Dashboard](https://app.powerbi.com/links/DHigIDIGsK?ctid=dee1ed73-19ca-4ce0-8066-8261fbabbeaa&pbi_source=linkShare)**
+- Scan it
+- ![Job-Market-Analysis-Dashboard](https://github.com/user-attachments/assets/a95276cf-af99-41be-987a-c41aa11129ae)
+
 ---
 ## Getting Started
 
