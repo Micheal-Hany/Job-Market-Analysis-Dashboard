@@ -19,7 +19,7 @@ This project focuses on analyzing job market data using Python and SQL for data 
 - No ```salary_rate``` column.
 - Updated column names.
 - Dates in ```job_posted_date``` column without the time part.
-- Cleaned job_via values without the "via" prefix.
+- Cleaned ```job_via``` values without the "via" prefix.
 
 ## ``` company_dim``` 
 - Delete ```thumbnail``` column
