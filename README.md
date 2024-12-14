@@ -39,7 +39,7 @@ get more Insights about job posting around world
 
 ### Insights for Job Seekers
 ---
-1. **Top Companies Hiring in a Specific Location or Industry**
+1. **Top Companies Hiring posting jobs**
    - **SQL Query:**
      ```sql
      SELECT company_dim.name AS company_name,
@@ -55,18 +55,18 @@ get more Insights about job posting around world
    - **Visualization:** Horizontal bar chart showing the top 10 hiring companies.
    - **Query Result:**
    - 
-| Industry        | Job Count |
-|-----------------|-----------|
-| programming     | 1,398,696 |
-| analyst_tools   | 632,696   |
-| cloud           | 552,271   |
-| libraries       | 521,217   |
-| other           | 260,389   |
-| databases       | 152,168   |
-| os              | 60,279    |
-| webframeworks   | 44,241    |
-| async           | 39,697    |
-| sync            | 7,950     |
+| Company Name         | Job Postings Count |
+|----------------------|---------------------|
+| Emprego              | 6,661              |
+| Booz Allen Hamilton  | 2,890              |
+| Dice                 | 2,825              |
+| Harnham              | 2,530              |
+| Insight Global       | 2,219              |
+| Citi                 | 2,185              |
+| Confidenziale        | 2,039              |
+| Capital One          | 1,983              |
+| Listopro             | 1,973              |
+| Walmart              | 1,862              |
 ---
 2. **Job Titles with the Highest Average Salary**
    - **SQL Query:**
